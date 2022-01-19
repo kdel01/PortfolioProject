@@ -93,6 +93,10 @@ p {
   text-decoration: underline;
 }
 
+#contact {
+  padding-top: 30px;
+}
+
 @media (max-width: 576px) {
   img {
     display: none;
