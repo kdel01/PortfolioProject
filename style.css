@@ -97,6 +97,17 @@ p {
   padding-top: 30px;
 }
 
+.img-title {
+  font-size: 36px;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.img-caption {
+  font-family: "Playfair Display", serif;
+}
+
 @media (max-width: 576px) {
   img {
     display: none;
@@ -121,6 +132,9 @@ p {
     text-align: center;
   }
   .about-pic {
+    display: block;
+  }
+  .work-pic {
     display: block;
   }
 }
