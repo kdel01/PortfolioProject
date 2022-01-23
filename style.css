@@ -83,14 +83,15 @@ p {
 
 .email-link {
   display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+  justify-content: left;
+  color: black;
+  font-size: 18px;
   text-decoration: none;
 }
 
 .email-link:hover {
   text-decoration: underline;
+  color: var(--primary-color);
 }
 
 #contact {
@@ -106,6 +107,12 @@ p {
 
 .img-caption {
   font-family: "Playfair Display", serif;
+}
+
+.contact-section {
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+  padding: 20px;
 }
 
 @media (max-width: 576px) {
