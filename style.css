@@ -201,4 +201,7 @@ footer .contact-box p {
   footer .primary-link {
     font-size: 18px;
   }
+  .contact-section a {
+    justify-content: center;
+  }
 }
